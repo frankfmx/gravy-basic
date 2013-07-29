@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <!--    if using php or any html preprocessor language/tool, this section must go into the header include   //start header-->
+    <head>
+        <title>Page title</title>
+        <!--meta tags here-->
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+        <meta name="author" content="your name here"/>
+        <meta name="description" content="describe your website/application here">
+
+        <!--link tags here-->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/><!--favicon goes here-->
+        <link rel="stylesheet" href="css/gravy-css.min.css"><!--this is gravy-basic's all-in-one optimized css. it contains normalize.css, -->
+        <link rel="stylesheet" href="css/your-style.css"><!--your custom stylesheet here. make sure no third-party stylesheets come after this.
+                                                use LESS CSS and minify your stylesheet for optimum performance-->
+        <!--scripts here/ you may alternatively place them in the footer section for performance,
+        some scripts may have to be necessarily placed in the head, for these scripts, leave them here no matter what-->
+        <script src="js/jquery.min.js">
+            //gravy basic uses jQuery, the current release is provided here, fetch from cdn for performance.
+            // check download.jquery.com frequently and use the most recent build
+        </script>
+        <script src="js/gravy-js.min.js">
+            /*this should be available on a cdn soon. it's gravy-basic's optimized script with all the great stuff you need to get started*/
+        </script>
+        <script src="js/your-script.js">
+            /* this is your custom script for all the functionality you want to implement on your site. make sure third-party scripts go above it
+             * remember to minify your scripts before production*/
+        </script>
+    </head>
+    <body>
+        <!--    end header  -->
+        <!--    body starts here //all individual page contents should go in here. it's advisable to wrap everything in a block element, eg bootstrap uses
+                container, others use wrapper, shell, case, etc -->
+        <!--    footer begins here  // for any content that goes in the footer of all pages, place here. should go into footer include-->
+        <!-- for performance, all movable* scripts should be placed here rather than in the head or add the deferred attribute to the scripts-->
+    </body>
+</html>
+<!--    end of footer and entire html document-->
